@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+.all-elements{
+	overflow-x:hidden;
+}
+
+body{
+	background-color:#282c33;
+}
+
+.page-header{
+	background-image:url(../images/misc/menu-bg.png);
+	height:60px;
+	box-shadow: 0px 3px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.paragraph{
+	display:block;
+	width:100%;
+}
+
+
+.logo{
+	width:78px;
+	float:right;
+	margin-top:22px;
+	margin-right:20px;
+}
+
+
+.deploy-sidebar{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-image:url(../images/misc/deploy-menu_402x.png);
+	background-size:18px 12px;
+	background-position:20px 23px;
+	background-repeat:no-repeat;
+	width:60px;
+	height:60px;
+}
+
+.deploy-sidebar:hover{
+	background-color:rgba(255,255,255,0.1);
+}
+
+
+.deploy-contact{
+	position:absolute;
+	top:24px;
+	right:20px;
+	background-image:url(../images/misc/deploy-mail_402x.png);
+	background-size:18px 12px;
+	width:18px;
+	height:12px;
+}
+
+.bxslider-wrapper{
+	margin-bottom:-20px;
+}
+
+
+.page-content{
+	background-image:url(../images/misc/menu-bg.png);
+	z-index:10;
+	display:block;
+	min-height:525px;
+	box-shadow: -2px 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.page-content-wrapper{
+	display:block;
+	background-color:#FFFFFF;
+	padding:20px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-bottom:15px;
+}
+
+.page-sidebar{
+	background-color:#FFFFFF;
+	width:230px;
+	display:block;
+	position:absolute;
+	z-index:2;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	overflow:hidden;
+	position:fixed;
+}
+
+.page-sidebar-scroll{
+	background-image:url(../images/misc/menu-bg.png);
+	background-repeat:repeat;
+	width:230px;
+	overflow: scroll!important;
+	overflow-x:hidden!important;
+	-webkit-overflow-scroll:touch!important;	
+	height:100%;
+}
+
+
+
+
+.heading em{
+	font-family:'Dosis', sans-serif;
+	font-style:normal;
+	font-size:12px;
+	color:#F89F35;
+}
+
+.heading h3{
+	color:#252525;
+	font-weight:400;	
+	margin-top:-5px;
+}
+
+.heading-left{
+	float:left;
+}
+
+.heading-right{
+	float:right;
+	margin-top:5px;
+}
+
+.thumbs{
+	width:110%;
+	margin-left:-5%;
+}
+
+
+.thumb{
+	width:33%;
+	box-sizing:border-box;
+	padding-left:10px;
+	padding-right:10px;
+	float:left;
+	margin-bottom:10px;
+}
+
+.thumb img{
+	width:100%;
+	display:block;
+}
+
+
+.left-thumb-text{
+	color:#FFFFFF;
+	text-align:left;
+	padding-left:10px;
+	margin-top:-30px;
+}
+
+.right-thumb-text{
+	color:#FFFFFF;
+	text-align:right;
+	padding-right:10px;
+	margin-top:-30px;
+}
+
+.copyright{
+	font-size:12px;
+	margin-top:-10px;
+	margin-bottom:-10px;
+}
+
+.footer{
+	padding-top:20px;
+	padding-bottom:15px;
+	background-image:url(../images/misc/menu-bg.png);
+	background-repeat:repeat; 
+	width:320px;
+}
+
+.footer-shortcuts{
+	width:130px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.footer-shortcuts a {
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+.nav-item{
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	float:left;
+	height:100px;
+	width:100px;
+	border:solid 1px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.05);
+	border-top:none;
+}
+
+.no-border{
+	border-left:none!important;
+}
+
+.nav-item a{
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	text-align:center;
+	color:rgba(255,255,255,0.6)!important;
+	font-size:14px;	
+	margin-top:10px;
+}
+
+.nav-item:hover{
+	background-color:rgba(255,255,255,0.07);
+}
+
+.selected-nav-item{
+	background-color:rgba(255,255,255,0.07)!important;
+}
+	
+
+.nav-item img{
+	margin-left:35px;
+	padding-bottom:10px;
+	padding-top:15px;
+}
+
+
+.small-nav-item{
+	float:left;
+	border:solid 1px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.05);
+	width:50px;
+	height:75px;
+}
+
+.small-nav-item:hover{
+	background-color:rgba(255,255,255,0.07);
+}
+
+.small-nav-item a{
+	text-align:center;
+	color:rgba(255,255,255,0.6)!important;
+	font-size:12px;	
+	margin-top:10px;
+}
+
+.small-nav-icon img{
+	margin-left:15px;
+	margin-top:10px;	
+	margin-bottom:10px;
+}
+
+.sidebar-copyright{
+	padding-top:10px;
+	margin-bottom:10px;
+	font-size:12px!important;
+	display:block;
+	text-align:center;
+}
+
+
+
+
+
