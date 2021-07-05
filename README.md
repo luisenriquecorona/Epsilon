@@ -1,4 +1,4 @@
-# Epsilon
+# Epsilon Elements
 
 https://luisenriquecorona.github.io/Epsilon/
 
